@@ -1,11 +1,13 @@
 {
-  "name": "react-3d-scroll-slider",
+  "name": "@web_steel/react-3d-scroll-slider",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepublishOnly": "rm -rf lib && npm run build",
+    "postbuild": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
   },
   "keywords": [],
   "author": "Vladimir Markov",
