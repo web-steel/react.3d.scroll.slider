@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "build": "rollup -c",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "docs": "start-storybook -p 6006",
+    "docs:build": "build-storybook -o docs-build",
     "prepublishOnly": "rm -rf lib && npm run build",
     "postbuild": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
   },

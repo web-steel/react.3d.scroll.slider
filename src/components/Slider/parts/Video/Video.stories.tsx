@@ -12,6 +12,6 @@ const Template: ComponentStory<typeof Video> = (args) => <Video {...args} />;
 export const Default = Template.bind({});
 
 Default.args = {
-  src: '/media/video/video.mp4',
+  src: 'media/video/video.mp4',
   position: 'center'
 };

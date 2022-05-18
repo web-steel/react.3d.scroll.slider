@@ -12,6 +12,6 @@ const Template: ComponentStory<typeof Img> = (args) => <Img {...args} />;
 export const Default = Template.bind({});
 
 Default.args = {
-  src: '/media/images/1.jpg',
+  src: 'media/images/1.jpg',
   position: 'center'
 };
