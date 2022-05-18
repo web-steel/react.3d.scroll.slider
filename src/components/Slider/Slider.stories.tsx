@@ -49,7 +49,6 @@ export const Default: ComponentStory<typeof Slider> = (args) => (
     <Video src={'media/video/video.mp4'} position={'left'} overlay />
 
     <Empty />
-    <Empty />
 
     <Img src={'media/images/5.jpg'} position={'right'} />
     <Img src={'media/images/8.jpg'} position={'left'} />
