@@ -13,7 +13,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install --legacy-peer-deps
-          npm run build-storybook
+          npm run docs:build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
