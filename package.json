@@ -2,6 +2,9 @@
   "name": "@web_steel/react-3d-scroll-slider",
   "version": "1.0.1",
   "description": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@web_steel/react-3d-scroll-slider"
+  },
   "scripts": {
     "build": "rollup -c",
     "docs": "start-storybook -p 6006",
