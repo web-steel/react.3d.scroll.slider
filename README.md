@@ -1,6 +1,6 @@
 # React 3D Scroll Slider
 
-## Instalation
+## Installation
 
 ```bash
 npm install @web_steel/react-3d-scroll-slider
